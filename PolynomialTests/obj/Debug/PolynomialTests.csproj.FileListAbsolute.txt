@@ -1,0 +1,11 @@
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\PolynomialTests\bin\Debug\PolynomialTests.dll
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\PolynomialTests\bin\Debug\PolynomialTests.pdb
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\PolynomialTests\bin\Debug\nunit.framework.dll
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\PolynomialTests\bin\Debug\Polynomial.dll
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\PolynomialTests\bin\Debug\Polynomial.pdb
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\PolynomialTests\bin\Debug\nunit.framework.pdb
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\PolynomialTests\bin\Debug\nunit.framework.xml
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\PolynomialTests\obj\Debug\PolynomialTests.csprojAssemblyReference.cache
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\PolynomialTests\obj\Debug\PolynomialTests.csproj.CopyComplete
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\PolynomialTests\obj\Debug\PolynomialTests.dll
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\PolynomialTests\obj\Debug\PolynomialTests.pdb

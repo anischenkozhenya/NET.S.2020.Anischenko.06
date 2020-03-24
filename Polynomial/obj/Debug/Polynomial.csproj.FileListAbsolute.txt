@@ -1,0 +1,5 @@
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\Polynomial\bin\Debug\Polynomial.dll
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\Polynomial\bin\Debug\Polynomial.pdb
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\Polynomial\obj\Debug\Polynomial.csprojAssemblyReference.cache
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\Polynomial\obj\Debug\Polynomial.dll
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\Polynomial\obj\Debug\Polynomial.pdb
