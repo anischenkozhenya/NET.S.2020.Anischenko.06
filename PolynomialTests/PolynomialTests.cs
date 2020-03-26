@@ -59,40 +59,59 @@ namespace PolynomialTests
             Polynomial.Polynomial myPolinomial6 = myPolinomial4 + myPolinomial5;
 
             Assert.AreEqual("3X^2+5X+7", myPolinomial3.ToString());
-            Assert.AreEqual("-100X^5+2X^4+40X^3+3X^2+4X+2", myPolinomial6.ToString()); 
+            Assert.AreEqual("-100X^5+2X^4+40X^3+3X^2+4X+2", myPolinomial6.ToString());
         }
-        
+
         [Test]
         public void PolynomialSumTwoOverFlowException()
         {
-            Polynomial.Polynomial myPolinomial1 = new Polynomial.Polynomial(Double.PositiveInfinity, 2);
-            Polynomial.Polynomial myPolinomial2 = new Polynomial.Polynomial(3, 1, 5);
+            Polynomial.Polynomial myPolinomial1 = new Polynomial.Polynomial(Double.MaxValue, 2);
+            Polynomial.Polynomial myPolinomial2 = new Polynomial.Polynomial(3, Double.MaxValue, 5);
             Polynomial.Polynomial myPolinomial3;
 
-            Polynomial.Polynomial myPolinomial4 = new Polynomial.Polynomial(-100, 2, Double.NegativeInfinity, 0, 0, 2);
+            Polynomial.Polynomial myPolinomial4 = new Polynomial.Polynomial(-100, 2, Double.MinValue, 0, 0, 2);
             Polynomial.Polynomial myPolinomial5 = new Polynomial.Polynomial(-1, 3, 4, 0);
             Polynomial.Polynomial myPolinomial6;
 
             Assert.Throws<ArgumentOutOfRangeException>(() => myPolinomial3 = myPolinomial1 + myPolinomial2);
-            Assert.Throws<ArgumentOutOfRangeException>(() => myPolinomial6 = myPolinomial4 + myPolinomial5); 
+            Assert.Throws<ArgumentOutOfRangeException>(() => myPolinomial6 = myPolinomial4 + myPolinomial5);
         }
-            public void PolynomialDivTwo()
-            {
-
-                //Polynomial.Polynomial myPolinomial1 = new Polynomial.Polynomial(1, 2);
-                //Polynomial.Polynomial myPolinomial2 = new Polynomial.Polynomial(3, 0, 5);
-                //myPolinomial2[1] = 4;
-                //Polynomial.Polynomial myPolinomial3 = myPolinomial1 - myPolinomial2;
-                //Assert.AreEqual("-3*X^2-3*X^1-3*X^0", myPolinomial3.ToString());
-                //Polynomial.Polynomial myPolinomial1 = new Polynomial.Polynomial(1, 2, 3, 4);
-                //Polynomial.Polynomial myPolinomial2 = new Polynomial.Polynomial(3, 5);
-                //Polynomial.Polynomial myPolinomial3 = 2 * myPolinomial1;
-                //Assert.AreEqual("3*X^2+3*X^1+3*X^0", myPolinomial3.ToString());
-                //Polynomial.Polynomial myPolinomial1 = new Polynomial.Polynomial(1, 2, 3);
-                //Polynomial.Polynomial myPolinomial2 = new Polynomial.Polynomial(3, 5);
-                //Polynomial.Polynomial myPolinomial3 = myPolinomial2 * myPolinomial1;
-                //Assert.AreEqual("3X^3+11X^2+19X+15", myPolinomial3.ToString());
-            }
+        [Test]
+        public void PolynomialDivTwo()
+        {
+            Polynomial.Polynomial myPolinomial1 = new Polynomial.Polynomial(1, 2);
+            Polynomial.Polynomial myPolinomial2 = new Polynomial.Polynomial(3, -4, 5);
+            Polynomial.Polynomial myPolinomial3 = myPolinomial1 - myPolinomial2;
+            Assert.AreEqual("-3X^2+5X-3", myPolinomial3.ToString());
         }
+            [Test]
+        public void Polynomial345345()
+        {
+            Polynomial.Polynomial myPolinomial1 = new Polynomial.Polynomial(1, 2, -3, 4);
+            Polynomial.Polynomial myPolinomial2 = new Polynomial.Polynomial(-1, -2, 8);
+            Polynomial.Polynomial myPolinomial3 = 2 * myPolinomial1;
+            Polynomial.Polynomial myPolinomial4 = -2 * myPolinomial2;
+            Assert.AreEqual("2X^3+4X^2-6X+8", myPolinomial3.ToString());
+            Assert.AreEqual("2X^2+4X-16", myPolinomial4.ToString());
+        }
+        [Test]
+        public void Polynomialdfdfdf()
+        {
+            Polynomial.Polynomial myPolinomial1 = new Polynomial.Polynomial(1, 2, -3, 4);
+            Polynomial.Polynomial myPolinomial2 = new Polynomial.Polynomial(-1, -2, 8);
+            Polynomial.Polynomial myPolinomial3 = myPolinomial1*2  ;
+            Polynomial.Polynomial myPolinomial4 =  myPolinomial2* -2;
+            Assert.AreEqual("2X^3+4X^2-6X+8", myPolinomial3.ToString());
+            Assert.AreEqual("2X^2+4X-16", myPolinomial4.ToString());
+        }
+        [Test]
+        public void Polynomial435345()
+        {
+            Polynomial.Polynomial myPolinomial1 = new Polynomial.Polynomial(1, 2, 3);
+            Polynomial.Polynomial myPolinomial2 = new Polynomial.Polynomial(3, 5);
+            Polynomial.Polynomial myPolinomial3 = myPolinomial2 * myPolinomial1;
+            Assert.AreEqual("3X^3+11X^2+19X+15", myPolinomial3.ToString());
+        }
+    }
 }
 

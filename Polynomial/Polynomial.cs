@@ -45,11 +45,11 @@ namespace Polynomial
                     {
                         if (degree == 1)
                         {
-                            str.Append($"+{Math.Abs(item)}X");
+                            str.Append($"-{Math.Abs(item)}X");
                         }
                         else if (degree == 0)
                         {
-                            str.Append($"+{Math.Abs(item)}");
+                            str.Append($"-{Math.Abs(item)}");
                         }
                         else
                         {
@@ -129,20 +129,23 @@ namespace Polynomial
 
             for (int i = Length - maxDegree, j = 0; i < Length; i++, j++)
             {
-                result[i] += min[j];
+                checked
+                {
+                    result.coefficients[i] += min.coefficients[j];
+                }
             }
             return result;
         }
         public static Polynomial operator -(Polynomial first, Polynomial second)
         {
-            return first + (-1) * second;
+            return first + ((-1) * second);
         }
         public static Polynomial operator *(double number, Polynomial polynomial)
         {
             var result = polynomial.MemberwiseClone() as Polynomial;
             for (int i = 0; i < polynomial.coefficients.Length; i++)
             {
-                polynomial[i] *= number;
+                polynomial.coefficients[i] *= number;
             }
             return result;
         }
@@ -151,7 +154,7 @@ namespace Polynomial
             var result = polynomial.MemberwiseClone() as Polynomial;
             for (int i = 0; i < polynomial.coefficients.Length; i++)
             {
-                polynomial[i] *= number;
+                polynomial.coefficients[i] *= number;
             }
             return result;
         }
