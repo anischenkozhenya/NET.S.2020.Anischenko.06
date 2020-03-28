@@ -7,7 +7,7 @@
     <ProjectGuid>{1A87EB0D-9CEC-4BE7-87E0-46810A42A6AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Polynomial</RootNamespace>
+    <RootNamespace>Polynomials</RootNamespace>
     <AssemblyName>Polynomial</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
