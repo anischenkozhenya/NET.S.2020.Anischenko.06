@@ -1,0 +1,5 @@
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSorting\bin\Debug\BubbleSorting.dll
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSorting\bin\Debug\BubbleSorting.pdb
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSorting\obj\Debug\BubbleSorting.csprojAssemblyReference.cache
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSorting\obj\Debug\BubbleSorting.dll
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSorting\obj\Debug\BubbleSorting.pdb

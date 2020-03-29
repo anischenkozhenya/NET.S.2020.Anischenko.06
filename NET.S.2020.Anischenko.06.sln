@@ -9,6 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E75B17DE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolynomialTests", "PolynomialTests\PolynomialTests.csproj", "{D4A22CF3-5891-4D9F-AE51-33D5192A098E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DB99328-A3B5-46C2-8C25-F1153FCBD71E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSorting", "BubbleSorting\BubbleSorting.csproj", "{7AEC74E6-97D9-4D3B-9007-2BCE917D1F31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortingTests", "BubbleSortingTests\BubbleSortingTests.csproj", "{453BE31D-9C21-4D8C-849C-C5CB1E2A4EF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +32,21 @@ Global
 		{D4A22CF3-5891-4D9F-AE51-33D5192A098E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4A22CF3-5891-4D9F-AE51-33D5192A098E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4A22CF3-5891-4D9F-AE51-33D5192A098E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AEC74E6-97D9-4D3B-9007-2BCE917D1F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AEC74E6-97D9-4D3B-9007-2BCE917D1F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AEC74E6-97D9-4D3B-9007-2BCE917D1F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AEC74E6-97D9-4D3B-9007-2BCE917D1F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453BE31D-9C21-4D8C-849C-C5CB1E2A4EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453BE31D-9C21-4D8C-849C-C5CB1E2A4EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453BE31D-9C21-4D8C-849C-C5CB1E2A4EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453BE31D-9C21-4D8C-849C-C5CB1E2A4EF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D4A22CF3-5891-4D9F-AE51-33D5192A098E} = {E75B17DE-367B-4DCD-AE54-A2B62E9B8F46}
+		{453BE31D-9C21-4D8C-849C-C5CB1E2A4EF4} = {E75B17DE-367B-4DCD-AE54-A2B62E9B8F46}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D690CF8B-E694-48E8-8F22-8FA7B4A7657F}

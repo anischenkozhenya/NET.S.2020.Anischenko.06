@@ -1,0 +1,11 @@
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSortingTests\bin\Debug\BubbleSortingTests.dll
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSortingTests\bin\Debug\BubbleSortingTests.pdb
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSortingTests\bin\Debug\BubbleSorting.dll
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSortingTests\bin\Debug\nunit.framework.dll
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSortingTests\bin\Debug\BubbleSorting.pdb
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSortingTests\bin\Debug\nunit.framework.pdb
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSortingTests\bin\Debug\nunit.framework.xml
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSortingTests\obj\Debug\BubbleSortingTests.csprojAssemblyReference.cache
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSortingTests\obj\Debug\BubbleSortingTests.csproj.CopyComplete
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSortingTests\obj\Debug\BubbleSortingTests.dll
+C:\Users\Madara\Desktop\NET.S.2020.Anischenko.06\NET.S.2020.Anischenko.06\BubbleSortingTests\obj\Debug\BubbleSortingTests.pdb
